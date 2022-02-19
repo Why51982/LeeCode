@@ -12,6 +12,7 @@
 		8E7F48E727BFF246008DA56A /* MoreNum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7F48E627BFF246008DA56A /* MoreNum.swift */; };
 		8E7F48EA27C00295008DA56A /* MatrixNum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7F48E927C00295008DA56A /* MatrixNum.swift */; };
 		8E7F48ED27C01068008DA56A /* MergeArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7F48EC27C01068008DA56A /* MergeArray.swift */; };
+		8E7F48F127C0E896008DA56A /* SortColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7F48F027C0E896008DA56A /* SortColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +34,7 @@
 		8E7F48E627BFF246008DA56A /* MoreNum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreNum.swift; sourceTree = "<group>"; };
 		8E7F48E927C00295008DA56A /* MatrixNum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixNum.swift; sourceTree = "<group>"; };
 		8E7F48EC27C01068008DA56A /* MergeArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeArray.swift; sourceTree = "<group>"; };
+		8E7F48F027C0E896008DA56A /* SortColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +51,7 @@
 		8E7F48CF27BFF0E3008DA56A = {
 			isa = PBXGroup;
 			children = (
+				8E7F48EF27C0E864008DA56A /* 颜色分类 */,
 				8E7F48EB27C01004008DA56A /* 合并两个有序数组 */,
 				8E7F48E827C00278008DA56A /* 搜索二维矩阵 II */,
 				8E7F48E527BFF22C008DA56A /* 多数元素 */,
@@ -104,6 +107,14 @@
 				8E7F48EC27C01068008DA56A /* MergeArray.swift */,
 			);
 			path = "合并两个有序数组";
+			sourceTree = "<group>";
+		};
+		8E7F48EF27C0E864008DA56A /* 颜色分类 */ = {
+			isa = PBXGroup;
+			children = (
+				8E7F48F027C0E896008DA56A /* SortColor.swift */,
+			);
+			path = "颜色分类";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +176,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E7F48E427BFF10C008DA56A /* SingleNum.swift in Sources */,
+				8E7F48F127C0E896008DA56A /* SortColor.swift in Sources */,
 				8E7F48DC27BFF0E3008DA56A /* main.swift in Sources */,
 				8E7F48E727BFF246008DA56A /* MoreNum.swift in Sources */,
 				8E7F48ED27C01068008DA56A /* MergeArray.swift in Sources */,

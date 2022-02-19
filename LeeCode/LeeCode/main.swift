@@ -24,7 +24,12 @@ import Foundation
 //debugPrint(isHas)
 
 // 合并两个有序数组
-var nums1 = [2, 0]
-let m = 1, nums2 = [1], n = 1
-MergeArray.merge(&nums1, m, nums2, n)
-debugPrint(nums1)
+//var nums1 = [2, 0]
+//let m = 1, nums2 = [1], n = 1
+//MergeArray.merge(&nums1, m, nums2, n)
+//debugPrint(nums1)
+
+// 颜色分类
+var nums = [2,0,2,1,1,0]
+SortColor.sortColors(&nums)
+debugPrint(nums)
