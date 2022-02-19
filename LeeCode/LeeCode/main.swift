@@ -30,6 +30,11 @@ import Foundation
 //debugPrint(nums1)
 
 // 颜色分类
-var nums = [2,0,2,1,1,0]
-SortColor.sortColors(&nums)
-debugPrint(nums)
+//var nums = [2,0,2,1,1,0]
+//SortColor.sortColors(&nums)
+//debugPrint(nums)
+
+// 部分排序
+var nums = [1,2,4,7,10,11,7,12,6,7,16,18,19]
+let indexs = PartialSort.subSort(nums)
+debugPrint(indexs)

@@ -13,6 +13,7 @@
 		8E7F48EA27C00295008DA56A /* MatrixNum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7F48E927C00295008DA56A /* MatrixNum.swift */; };
 		8E7F48ED27C01068008DA56A /* MergeArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7F48EC27C01068008DA56A /* MergeArray.swift */; };
 		8E7F48F127C0E896008DA56A /* SortColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7F48F027C0E896008DA56A /* SortColor.swift */; };
+		8E7F48F427C14726008DA56A /* PartialSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7F48F327C14726008DA56A /* PartialSort.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +36,7 @@
 		8E7F48E927C00295008DA56A /* MatrixNum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixNum.swift; sourceTree = "<group>"; };
 		8E7F48EC27C01068008DA56A /* MergeArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeArray.swift; sourceTree = "<group>"; };
 		8E7F48F027C0E896008DA56A /* SortColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortColor.swift; sourceTree = "<group>"; };
+		8E7F48F327C14726008DA56A /* PartialSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartialSort.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		8E7F48CF27BFF0E3008DA56A = {
 			isa = PBXGroup;
 			children = (
+				8E7F48F227C146D2008DA56A /* 部分排序 */,
 				8E7F48EF27C0E864008DA56A /* 颜色分类 */,
 				8E7F48EB27C01004008DA56A /* 合并两个有序数组 */,
 				8E7F48E827C00278008DA56A /* 搜索二维矩阵 II */,
@@ -117,6 +120,14 @@
 			path = "颜色分类";
 			sourceTree = "<group>";
 		};
+		8E7F48F227C146D2008DA56A /* 部分排序 */ = {
+			isa = PBXGroup;
+			children = (
+				8E7F48F327C14726008DA56A /* PartialSort.swift */,
+			);
+			path = "部分排序";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -180,6 +191,7 @@
 				8E7F48DC27BFF0E3008DA56A /* main.swift in Sources */,
 				8E7F48E727BFF246008DA56A /* MoreNum.swift in Sources */,
 				8E7F48ED27C01068008DA56A /* MergeArray.swift in Sources */,
+				8E7F48F427C14726008DA56A /* PartialSort.swift in Sources */,
 				8E7F48EA27C00295008DA56A /* MatrixNum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
