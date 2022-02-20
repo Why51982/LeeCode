@@ -14,6 +14,8 @@
 		8E7F48ED27C01068008DA56A /* MergeArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7F48EC27C01068008DA56A /* MergeArray.swift */; };
 		8E7F48F127C0E896008DA56A /* SortColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7F48F027C0E896008DA56A /* SortColor.swift */; };
 		8E7F48F427C14726008DA56A /* PartialSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7F48F327C14726008DA56A /* PartialSort.swift */; };
+		8E7F48F927C28B90008DA56A /* RemoveNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7F48F827C28B90008DA56A /* RemoveNode.swift */; };
+		8E7F48FB27C28D53008DA56A /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7F48FA27C28D53008DA56A /* ListNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +39,8 @@
 		8E7F48EC27C01068008DA56A /* MergeArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeArray.swift; sourceTree = "<group>"; };
 		8E7F48F027C0E896008DA56A /* SortColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortColor.swift; sourceTree = "<group>"; };
 		8E7F48F327C14726008DA56A /* PartialSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartialSort.swift; sourceTree = "<group>"; };
+		8E7F48F827C28B90008DA56A /* RemoveNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveNode.swift; sourceTree = "<group>"; };
+		8E7F48FA27C28D53008DA56A /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,12 +57,8 @@
 		8E7F48CF27BFF0E3008DA56A = {
 			isa = PBXGroup;
 			children = (
-				8E7F48F227C146D2008DA56A /* 部分排序 */,
-				8E7F48EF27C0E864008DA56A /* 颜色分类 */,
-				8E7F48EB27C01004008DA56A /* 合并两个有序数组 */,
-				8E7F48E827C00278008DA56A /* 搜索二维矩阵 II */,
-				8E7F48E527BFF22C008DA56A /* 多数元素 */,
-				8E7F48E227BFF0EF008DA56A /* 只出现一次的数字 */,
+				8E7F48F627C28A3E008DA56A /* 链表 */,
+				8E7F48F527C28A2B008DA56A /* 数组 */,
 				8E7F48DA27BFF0E3008DA56A /* LeeCode */,
 				8E7F48D927BFF0E3008DA56A /* Products */,
 			);
@@ -128,6 +128,36 @@
 			path = "部分排序";
 			sourceTree = "<group>";
 		};
+		8E7F48F527C28A2B008DA56A /* 数组 */ = {
+			isa = PBXGroup;
+			children = (
+				8E7F48F227C146D2008DA56A /* 部分排序 */,
+				8E7F48EF27C0E864008DA56A /* 颜色分类 */,
+				8E7F48EB27C01004008DA56A /* 合并两个有序数组 */,
+				8E7F48E827C00278008DA56A /* 搜索二维矩阵 II */,
+				8E7F48E527BFF22C008DA56A /* 多数元素 */,
+				8E7F48E227BFF0EF008DA56A /* 只出现一次的数字 */,
+			);
+			path = "数组";
+			sourceTree = "<group>";
+		};
+		8E7F48F627C28A3E008DA56A /* 链表 */ = {
+			isa = PBXGroup;
+			children = (
+				8E7F48FA27C28D53008DA56A /* ListNode.swift */,
+				8E7F48F727C28B79008DA56A /* 移除链表元素 */,
+			);
+			path = "链表";
+			sourceTree = "<group>";
+		};
+		8E7F48F727C28B79008DA56A /* 移除链表元素 */ = {
+			isa = PBXGroup;
+			children = (
+				8E7F48F827C28B90008DA56A /* RemoveNode.swift */,
+			);
+			path = "移除链表元素";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -188,11 +218,13 @@
 			files = (
 				8E7F48E427BFF10C008DA56A /* SingleNum.swift in Sources */,
 				8E7F48F127C0E896008DA56A /* SortColor.swift in Sources */,
+				8E7F48FB27C28D53008DA56A /* ListNode.swift in Sources */,
 				8E7F48DC27BFF0E3008DA56A /* main.swift in Sources */,
 				8E7F48E727BFF246008DA56A /* MoreNum.swift in Sources */,
 				8E7F48ED27C01068008DA56A /* MergeArray.swift in Sources */,
 				8E7F48F427C14726008DA56A /* PartialSort.swift in Sources */,
 				8E7F48EA27C00295008DA56A /* MatrixNum.swift in Sources */,
+				8E7F48F927C28B90008DA56A /* RemoveNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

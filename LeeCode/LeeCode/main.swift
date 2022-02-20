@@ -7,6 +7,7 @@
 
 import Foundation
 
+// MARK: 数组
 // 只出现一次数字
 //let nums = [4,1,2,1,2]
 //let num = SingleNum.singleNumber(nums)
@@ -35,6 +36,6 @@ import Foundation
 //debugPrint(nums)
 
 // 部分排序
-var nums = [1,2,4,7,10,11,7,12,6,7,16,18,19]
-let indexs = PartialSort.subSort(nums)
-debugPrint(indexs)
+//var nums = [1,2,4,7,10,11,7,12,6,7,16,18,19]
+//let indexs = PartialSort.subSort(nums)
+//debugPrint(indexs)
