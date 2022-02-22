@@ -66,3 +66,7 @@ import Foundation
 //        headD.next = headE
 //        headE.next = headF
 //        headF.next = nil
+
+// 回文链表
+let head1 = ListNode(1)
+PalindromeNode.isPalindrome(head1)

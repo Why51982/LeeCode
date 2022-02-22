@@ -19,6 +19,7 @@
 		8E7F48FE27C3E0CD008DA56A /* AddNum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7F48FD27C3E0CD008DA56A /* AddNum.swift */; };
 		8E7F490127C3ED28008DA56A /* IntersectNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7F490027C3ED28008DA56A /* IntersectNode.swift */; };
 		8E7F490427C5180F008DA56A /* SplitNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7F490327C5180F008DA56A /* SplitNode.swift */; };
+		8E7F490727C51DE7008DA56A /* PalindromeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7F490627C51DE7008DA56A /* PalindromeNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -47,6 +48,7 @@
 		8E7F48FD27C3E0CD008DA56A /* AddNum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNum.swift; sourceTree = "<group>"; };
 		8E7F490027C3ED28008DA56A /* IntersectNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntersectNode.swift; sourceTree = "<group>"; };
 		8E7F490327C5180F008DA56A /* SplitNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitNode.swift; sourceTree = "<group>"; };
+		8E7F490627C51DE7008DA56A /* PalindromeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromeNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				8E7F48FA27C28D53008DA56A /* ListNode.swift */,
+				8E7F490527C51DAF008DA56A /* 回文链表 */,
 				8E7F490227C51752008DA56A /* 分割链表 */,
 				8E7F48FF27C3ECDB008DA56A /* 相交链表 */,
 				8E7F48FC27C3E0AC008DA56A /* 两数相加 */,
@@ -189,6 +192,14 @@
 				8E7F490327C5180F008DA56A /* SplitNode.swift */,
 			);
 			path = "分割链表";
+			sourceTree = "<group>";
+		};
+		8E7F490527C51DAF008DA56A /* 回文链表 */ = {
+			isa = PBXGroup;
+			children = (
+				8E7F490627C51DE7008DA56A /* PalindromeNode.swift */,
+			);
+			path = "回文链表";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E7F48E427BFF10C008DA56A /* SingleNum.swift in Sources */,
+				8E7F490727C51DE7008DA56A /* PalindromeNode.swift in Sources */,
 				8E7F48F127C0E896008DA56A /* SortColor.swift in Sources */,
 				8E7F490127C3ED28008DA56A /* IntersectNode.swift in Sources */,
 				8E7F48FE27C3E0CD008DA56A /* AddNum.swift in Sources */,
