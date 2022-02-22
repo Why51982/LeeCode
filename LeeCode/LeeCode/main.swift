@@ -42,28 +42,27 @@ import Foundation
 
 //        [4,1,8,4,5]
 //        [5,6,1,8,4,5]
-        let head1 = ListNode(4)
-        let head2 = ListNode(1)
-        let head3 = ListNode(8)
-        let head4 = ListNode(4)
-        let head5 = ListNode(5)
-        head1.next = head2
-        head2.next = head3
-        head3.next = head4
-        head4.next = head5
-        head5.next = nil
-        
-        
-        let headM = ListNode(5)
-        let headN = ListNode(6)
-        let headC = ListNode(1)
-        let headD = ListNode(8)
-        let headE = ListNode(4)
-        let headF = ListNode(5)
-        headM.next = headN
-        headN.next = headC
-        headC.next = headD
-        headD.next = headE
-        headE.next = headF
-        headF.next = nil
-IntersectNode.getIntersectionNode(head1, headM)
+//        let head1 = ListNode(4)
+//        let head2 = ListNode(1)
+//        let head3 = ListNode(8)
+//        let head4 = ListNode(4)
+//        let head5 = ListNode(5)
+//        head1.next = head2
+//        head2.next = head3
+//        head3.next = head4
+//        head4.next = head5
+//        head5.next = nil
+//
+//
+//        let headM = ListNode(5)
+//        let headN = ListNode(6)
+//        let headC = ListNode(1)
+//        let headD = ListNode(8)
+//        let headE = ListNode(4)
+//        let headF = ListNode(5)
+//        headM.next = headN
+//        headN.next = headC
+//        headC.next = headD
+//        headD.next = headE
+//        headE.next = headF
+//        headF.next = nil
