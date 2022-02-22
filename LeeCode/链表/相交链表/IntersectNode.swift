@@ -89,7 +89,7 @@ struct IntersectNode {
          newHeadB = newHeadB.next != nil ? newHeadB.next! : headA
          */
         
-        while newHeadA?.val != newHeadB?.val {
+        while newHeadA !== newHeadB {
             newHeadA = (newHeadA != nil) ? newHeadA?.next : headB
             newHeadB = (newHeadB != nil) ? newHeadB?.next : headA
         }

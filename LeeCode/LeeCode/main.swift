@@ -66,3 +66,4 @@ import Foundation
         headD.next = headE
         headE.next = headF
         headF.next = nil
+IntersectNode.getIntersectionNode(head1, headM)
