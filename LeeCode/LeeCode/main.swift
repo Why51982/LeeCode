@@ -68,5 +68,16 @@ import Foundation
 //        headF.next = nil
 
 // 回文链表
-let head1 = ListNode(1)
-PalindromeNode.isPalindrome(head1)
+//let head1 = ListNode(1)
+//PalindromeNode.isPalindrome(head1)
+
+//  最小栈
+let obj = MinStack()
+ obj.push(-2)
+obj.push(0)
+obj.push(-3)
+obj.pop()
+let ret_3: Int = obj.top()
+let ret_4: Int = obj.getMin()
+debugPrint(ret_3)
+debugPrint(ret_4)
