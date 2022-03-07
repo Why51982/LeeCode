@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8E5B176127D5025400F39918 /* MinStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5B176027D5025400F39918 /* MinStack.swift */; };
+		8E5B176427D512D600F39918 /* MaxSlidingWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5B176327D512D600F39918 /* MaxSlidingWindow.swift */; };
 		8E7F48DC27BFF0E3008DA56A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7F48DB27BFF0E3008DA56A /* main.swift */; };
 		8E7F48E427BFF10C008DA56A /* SingleNum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7F48E327BFF10C008DA56A /* SingleNum.swift */; };
 		8E7F48E727BFF246008DA56A /* MoreNum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7F48E627BFF246008DA56A /* MoreNum.swift */; };
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		8E5B176027D5025400F39918 /* MinStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinStack.swift; sourceTree = "<group>"; };
+		8E5B176327D512D600F39918 /* MaxSlidingWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxSlidingWindow.swift; sourceTree = "<group>"; };
 		8E7F48D827BFF0E3008DA56A /* LeeCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeeCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E7F48DB27BFF0E3008DA56A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		8E7F48E327BFF10C008DA56A /* SingleNum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleNum.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 		8E5B175E27D5008000F39918 /* 栈 */ = {
 			isa = PBXGroup;
 			children = (
+				8E5B176227D512BC00F39918 /* 滑动窗口最大值 */,
 				8E5B175F27D5023500F39918 /* 最小栈 */,
 			);
 			path = "栈";
@@ -78,6 +81,14 @@
 				8E5B176027D5025400F39918 /* MinStack.swift */,
 			);
 			path = "最小栈";
+			sourceTree = "<group>";
+		};
+		8E5B176227D512BC00F39918 /* 滑动窗口最大值 */ = {
+			isa = PBXGroup;
+			children = (
+				8E5B176327D512D600F39918 /* MaxSlidingWindow.swift */,
+			);
+			path = "滑动窗口最大值";
 			sourceTree = "<group>";
 		};
 		8E7F48CF27BFF0E3008DA56A = {
@@ -292,6 +303,7 @@
 				8E7F48F427C14726008DA56A /* PartialSort.swift in Sources */,
 				8E5B176127D5025400F39918 /* MinStack.swift in Sources */,
 				8E7F48EA27C00295008DA56A /* MatrixNum.swift in Sources */,
+				8E5B176427D512D600F39918 /* MaxSlidingWindow.swift in Sources */,
 				8E7F48F927C28B90008DA56A /* RemoveNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

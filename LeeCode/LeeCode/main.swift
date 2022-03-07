@@ -72,12 +72,17 @@ import Foundation
 //PalindromeNode.isPalindrome(head1)
 
 //  最小栈
-let obj = MinStack()
- obj.push(-2)
-obj.push(0)
-obj.push(-3)
-obj.pop()
-let ret_3: Int = obj.top()
-let ret_4: Int = obj.getMin()
-debugPrint(ret_3)
-debugPrint(ret_4)
+//let obj = MinStack()
+// obj.push(-2)
+//obj.push(0)
+//obj.push(-3)
+//obj.pop()
+//let ret_3: Int = obj.top()
+//let ret_4: Int = obj.getMin()
+//debugPrint(ret_3)
+//debugPrint(ret_4)
+
+// 滑动窗口的最大值
+let nums = MaxSlidingWindow.maxSlidingWindow([1, 3, -1, -3, 5, 3, 6, 7], 3)
+//let nums = MaxSlidingWindow.maxSlidingWindow([1,-1], 1)
+debugPrint(nums)
