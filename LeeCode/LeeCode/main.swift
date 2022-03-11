@@ -83,6 +83,13 @@ import Foundation
 //debugPrint(ret_4)
 
 // 滑动窗口的最大值
-let nums = MaxSlidingWindow.maxSlidingWindow([1, 3, -1, -3, 5, 3, 6, 7], 3)
-//let nums = MaxSlidingWindow.maxSlidingWindow([1,-1], 1)
-debugPrint(nums)
+//let nums = MaxSlidingWindow.maxSlidingWindow([1, 3, -1, -3, 5, 3, 6, 7], 3)
+////let nums = MaxSlidingWindow.maxSlidingWindow([1,-1], 1)
+//debugPrint(nums)
+
+// 最大二叉树
+let maximumBinaryTree = MaximumBinaryTree()
+let nums = [3,2,1,6,0,5]
+let _ = maximumBinaryTree.constructMaximumBinaryTree(nums)
+let parentIndexs = maximumBinaryTree.parentIndex(nums)
+debugPrint(parentIndexs)
