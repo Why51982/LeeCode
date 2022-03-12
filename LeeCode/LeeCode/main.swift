@@ -88,8 +88,14 @@ import Foundation
 //debugPrint(nums)
 
 // 最大二叉树
-let maximumBinaryTree = MaximumBinaryTree()
-let nums = [3,2,1,6,0,5]
-let _ = maximumBinaryTree.constructMaximumBinaryTree(nums)
-let parentIndexs = maximumBinaryTree.parentIndex(nums)
-debugPrint(parentIndexs)
+//let maximumBinaryTree = MaximumBinaryTree()
+//let nums = [3,2,1,6,0,5]
+//let _ = maximumBinaryTree.constructMaximumBinaryTree(nums)
+//let parentIndexs = maximumBinaryTree.parentIndex(nums)
+//debugPrint(parentIndexs)
+
+// 每日温度
+let dailyTemperature = DailyTemperature()
+var temperatures = [73,74,75,71,69,72,76,73]
+let results = dailyTemperature.dailyTemperatures(temperatures)
+debugPrint(results)
