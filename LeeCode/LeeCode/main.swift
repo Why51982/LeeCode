@@ -95,7 +95,11 @@ import Foundation
 //debugPrint(parentIndexs)
 
 // 每日温度
-let dailyTemperature = DailyTemperature()
-var temperatures = [73,74,75,71,69,72,76,73]
-let results = dailyTemperature.dailyTemperatures(temperatures)
-debugPrint(results)
+//let dailyTemperature = DailyTemperature()
+//var temperatures = [73,74,75,71,69,72,76,73]
+//let results = dailyTemperature.dailyTemperatures(temperatures)
+//debugPrint(results)
+
+// 字符串轮转
+let isFliped  = FlipedString.isFlipedString("", "")
+debugPrint(isFliped)
