@@ -50,7 +50,6 @@ class Anagram {
         
         return true
     }
-}
     
     // MARK: 运用字典
     func isAnagram0(_ s: String, _ t: String) -> Bool {
