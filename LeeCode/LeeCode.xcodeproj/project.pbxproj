@@ -13,6 +13,7 @@
 		8E5B176A27DCB18300F39918 /* DailyTemperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5B176927DCB18300F39918 /* DailyTemperature.swift */; };
 		8E5B176E27DCE34800F39918 /* FlipedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5B176D27DCE34800F39918 /* FlipedString.swift */; };
 		8E5B177127DE24CE00F39918 /* Subtree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5B177027DE24CE00F39918 /* Subtree.swift */; };
+		8E5B177427DE29B900F39918 /* Anagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5B177327DE29B900F39918 /* Anagram.swift */; };
 		8E7F48DC27BFF0E3008DA56A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7F48DB27BFF0E3008DA56A /* main.swift */; };
 		8E7F48E427BFF10C008DA56A /* SingleNum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7F48E327BFF10C008DA56A /* SingleNum.swift */; };
 		8E7F48E727BFF246008DA56A /* MoreNum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7F48E627BFF246008DA56A /* MoreNum.swift */; };
@@ -47,6 +48,7 @@
 		8E5B176927DCB18300F39918 /* DailyTemperature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyTemperature.swift; sourceTree = "<group>"; };
 		8E5B176D27DCE34800F39918 /* FlipedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipedString.swift; sourceTree = "<group>"; };
 		8E5B177027DE24CE00F39918 /* Subtree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subtree.swift; sourceTree = "<group>"; };
+		8E5B177327DE29B900F39918 /* Anagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anagram.swift; sourceTree = "<group>"; };
 		8E7F48D827BFF0E3008DA56A /* LeeCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeeCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E7F48DB27BFF0E3008DA56A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		8E7F48E327BFF10C008DA56A /* SingleNum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleNum.swift; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 		8E5B176B27DCE31200F39918 /* 字符串  */ = {
 			isa = PBXGroup;
 			children = (
+				8E5B177227DE29A700F39918 /* 有效的字母异位词 */,
 				8E5B176F27DE249A00F39918 /* 另一棵树的子树 */,
 				8E5B176C27DCE32000F39918 /* 字符串轮转 */,
 			);
@@ -140,6 +143,14 @@
 				8E5B177027DE24CE00F39918 /* Subtree.swift */,
 			);
 			path = "另一棵树的子树";
+			sourceTree = "<group>";
+		};
+		8E5B177227DE29A700F39918 /* 有效的字母异位词 */ = {
+			isa = PBXGroup;
+			children = (
+				8E5B177327DE29B900F39918 /* Anagram.swift */,
+			);
+			path = "有效的字母异位词";
 			sourceTree = "<group>";
 		};
 		8E7F48CF27BFF0E3008DA56A = {
@@ -357,6 +368,7 @@
 				8E7F48E727BFF246008DA56A /* MoreNum.swift in Sources */,
 				8E7F48ED27C01068008DA56A /* MergeArray.swift in Sources */,
 				8E7F48F427C14726008DA56A /* PartialSort.swift in Sources */,
+				8E5B177427DE29B900F39918 /* Anagram.swift in Sources */,
 				8E5B176127D5025400F39918 /* MinStack.swift in Sources */,
 				8E7F48EA27C00295008DA56A /* MatrixNum.swift in Sources */,
 				8E5B176427D512D600F39918 /* MaxSlidingWindow.swift in Sources */,
