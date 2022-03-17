@@ -101,5 +101,10 @@ import Foundation
 //debugPrint(results)
 
 // 字符串轮转
-let isFliped  = FlipedString.isFlipedString("", "")
-debugPrint(isFliped)
+//let isFliped  = FlipedString.isFlipedString("", "")
+//debugPrint(isFliped)
+
+// 无重复字符的最长子串
+let longestSubString = LongestSubstring()
+let length = longestSubString.lengthOfLongestSubstring("abcabcbb")
+debugPrint(length)
