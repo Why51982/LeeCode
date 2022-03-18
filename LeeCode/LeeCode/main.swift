@@ -105,6 +105,10 @@ import Foundation
 //debugPrint(isFliped)
 
 // 无重复字符的最长子串
-let longestSubString = LongestSubstring()
-let length = longestSubString.lengthOfLongestSubstring("abcabcbb")
-debugPrint(length)
+//let longestSubString = LongestSubstring()
+//let length = longestSubString.lengthOfLongestSubstring("abcabcbb")
+//debugPrint(length)
+
+// 零钱兑换
+let coinChange = CoinChange()
+debugPrint(coinChange.coinChange([1], 0))

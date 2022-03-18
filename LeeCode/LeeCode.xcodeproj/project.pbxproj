@@ -16,6 +16,7 @@
 		8E5B177427DE29B900F39918 /* Anagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5B177327DE29B900F39918 /* Anagram.swift */; };
 		8E5B177727DE36E700F39918 /* ReverseWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5B177627DE36E700F39918 /* ReverseWords.swift */; };
 		8E5B177A27E312B800F39918 /* LongestSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5B177927E312B800F39918 /* LongestSubstring.swift */; };
+		8E5B177E27E398AB00F39918 /* CoinChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5B177D27E398AB00F39918 /* CoinChange.swift */; };
 		8E7F48DC27BFF0E3008DA56A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7F48DB27BFF0E3008DA56A /* main.swift */; };
 		8E7F48E427BFF10C008DA56A /* SingleNum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7F48E327BFF10C008DA56A /* SingleNum.swift */; };
 		8E7F48E727BFF246008DA56A /* MoreNum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7F48E627BFF246008DA56A /* MoreNum.swift */; };
@@ -53,6 +54,7 @@
 		8E5B177327DE29B900F39918 /* Anagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anagram.swift; sourceTree = "<group>"; };
 		8E5B177627DE36E700F39918 /* ReverseWords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseWords.swift; sourceTree = "<group>"; };
 		8E5B177927E312B800F39918 /* LongestSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestSubstring.swift; sourceTree = "<group>"; };
+		8E5B177D27E398AB00F39918 /* CoinChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinChange.swift; sourceTree = "<group>"; };
 		8E7F48D827BFF0E3008DA56A /* LeeCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeeCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E7F48DB27BFF0E3008DA56A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		8E7F48E327BFF10C008DA56A /* SingleNum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleNum.swift; sourceTree = "<group>"; };
@@ -175,9 +177,26 @@
 			path = "无重复字符的最长子串";
 			sourceTree = "<group>";
 		};
+		8E5B177B27E397DD00F39918 /* 动态规划 */ = {
+			isa = PBXGroup;
+			children = (
+				8E5B177C27E3989400F39918 /* 零钱兑换 */,
+			);
+			path = "动态规划";
+			sourceTree = "<group>";
+		};
+		8E5B177C27E3989400F39918 /* 零钱兑换 */ = {
+			isa = PBXGroup;
+			children = (
+				8E5B177D27E398AB00F39918 /* CoinChange.swift */,
+			);
+			path = "零钱兑换";
+			sourceTree = "<group>";
+		};
 		8E7F48CF27BFF0E3008DA56A = {
 			isa = PBXGroup;
 			children = (
+				8E5B177B27E397DD00F39918 /* 动态规划 */,
 				8E5B176B27DCE31200F39918 /* 字符串  */,
 				8E5B175E27D5008000F39918 /* 栈 */,
 				8E7F48F627C28A3E008DA56A /* 链表 */,
@@ -397,6 +416,7 @@
 				8E7F48EA27C00295008DA56A /* MatrixNum.swift in Sources */,
 				8E5B176427D512D600F39918 /* MaxSlidingWindow.swift in Sources */,
 				8E7F48F927C28B90008DA56A /* RemoveNode.swift in Sources */,
+				8E5B177E27E398AB00F39918 /* CoinChange.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
