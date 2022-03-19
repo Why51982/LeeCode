@@ -17,6 +17,7 @@
 		8E5B177727DE36E700F39918 /* ReverseWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5B177627DE36E700F39918 /* ReverseWords.swift */; };
 		8E5B177A27E312B800F39918 /* LongestSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5B177927E312B800F39918 /* LongestSubstring.swift */; };
 		8E5B177E27E398AB00F39918 /* CoinChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5B177D27E398AB00F39918 /* CoinChange.swift */; };
+		8E5B178127E5E34F00F39918 /* MaxSubArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5B178027E5E34F00F39918 /* MaxSubArray.swift */; };
 		8E7F48DC27BFF0E3008DA56A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7F48DB27BFF0E3008DA56A /* main.swift */; };
 		8E7F48E427BFF10C008DA56A /* SingleNum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7F48E327BFF10C008DA56A /* SingleNum.swift */; };
 		8E7F48E727BFF246008DA56A /* MoreNum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7F48E627BFF246008DA56A /* MoreNum.swift */; };
@@ -55,6 +56,7 @@
 		8E5B177627DE36E700F39918 /* ReverseWords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseWords.swift; sourceTree = "<group>"; };
 		8E5B177927E312B800F39918 /* LongestSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestSubstring.swift; sourceTree = "<group>"; };
 		8E5B177D27E398AB00F39918 /* CoinChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinChange.swift; sourceTree = "<group>"; };
+		8E5B178027E5E34F00F39918 /* MaxSubArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxSubArray.swift; sourceTree = "<group>"; };
 		8E7F48D827BFF0E3008DA56A /* LeeCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeeCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E7F48DB27BFF0E3008DA56A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		8E7F48E327BFF10C008DA56A /* SingleNum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleNum.swift; sourceTree = "<group>"; };
@@ -180,6 +182,7 @@
 		8E5B177B27E397DD00F39918 /* 动态规划 */ = {
 			isa = PBXGroup;
 			children = (
+				8E5B177F27E5E33A00F39918 /* 最大子数组和 */,
 				8E5B177C27E3989400F39918 /* 零钱兑换 */,
 			);
 			path = "动态规划";
@@ -191,6 +194,14 @@
 				8E5B177D27E398AB00F39918 /* CoinChange.swift */,
 			);
 			path = "零钱兑换";
+			sourceTree = "<group>";
+		};
+		8E5B177F27E5E33A00F39918 /* 最大子数组和 */ = {
+			isa = PBXGroup;
+			children = (
+				8E5B178027E5E34F00F39918 /* MaxSubArray.swift */,
+			);
+			path = "最大子数组和";
 			sourceTree = "<group>";
 		};
 		8E7F48CF27BFF0E3008DA56A = {
@@ -397,6 +408,7 @@
 				8E5B176A27DCB18300F39918 /* DailyTemperature.swift in Sources */,
 				8E5B177127DE24CE00F39918 /* Subtree.swift in Sources */,
 				8E7F48E427BFF10C008DA56A /* SingleNum.swift in Sources */,
+				8E5B178127E5E34F00F39918 /* MaxSubArray.swift in Sources */,
 				8E7F490727C51DE7008DA56A /* PalindromeNode.swift in Sources */,
 				8E5B177A27E312B800F39918 /* LongestSubstring.swift in Sources */,
 				8E7F48F127C0E896008DA56A /* SortColor.swift in Sources */,

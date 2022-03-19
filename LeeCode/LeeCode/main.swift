@@ -110,5 +110,9 @@ import Foundation
 //debugPrint(length)
 
 // 零钱兑换
-let coinChange = CoinChange()
-debugPrint(coinChange.coinChange([1], 0))
+//let coinChange = CoinChange()
+//debugPrint(coinChange.coinChange([1], 0))
+
+// 最大子数组和
+let maxSubArray = MaxSubArray()
+debugPrint(maxSubArray.maxSubArray([1]))
