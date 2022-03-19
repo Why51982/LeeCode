@@ -46,7 +46,7 @@ class MaxSubArray {
             return maxAns
         }
     
-    // MARK: 动态规划
+    // MARK: 动态规划 dp[i]是以num[i]结尾的最大连续子序列的和
     func maxSubArray1(_ nums: [Int]) -> Int {
         guard !nums.isEmpty else { return 0 }
         var dp: [Int] = Array(repeating: 0, count: nums.count)
