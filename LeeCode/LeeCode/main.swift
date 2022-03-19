@@ -114,5 +114,9 @@ import Foundation
 //debugPrint(coinChange.coinChange([1], 0))
 
 // 最大子数组和
-let maxSubArray = MaxSubArray()
-debugPrint(maxSubArray.maxSubArray([1]))
+//let maxSubArray = MaxSubArray()
+//debugPrint(maxSubArray.maxSubArray([1]))
+
+// 最长递增子序列
+let lis = LIS()
+debugPrint(lis.lengthOfLIS([10,9,2,5,3,7,101,18]))
