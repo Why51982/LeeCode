@@ -118,5 +118,10 @@ import Foundation
 //debugPrint(maxSubArray.maxSubArray([1]))
 
 // 最长递增子序列
-let lis = LIS()
-debugPrint(lis.lengthOfLIS([10,9,2,5,3,7,101,18]))
+//let lis = LIS()
+//debugPrint(lis.lengthOfLIS([10,9,2,5,3,7,101,18]))
+
+// 最长公共子序列
+let text1 = "abcde", text2 = "ace"
+let commonSubsequence = CommonSubsequence()
+debugPrint(commonSubsequence.longestCommonSubsequence(text1, text2))
