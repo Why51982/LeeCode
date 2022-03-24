@@ -21,6 +21,7 @@
 		8E5B178427E61C4700F39918 /* LIS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5B178327E61C4700F39918 /* LIS.swift */; };
 		8E5B178827E6F48E00F39918 /* CommonSubsequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5B178727E6F48E00F39918 /* CommonSubsequence.swift */; };
 		8E5B178B27ECB17400F39918 /* CommonSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5B178A27ECB17400F39918 /* CommonSubstring.swift */; };
+		8E5B178E27ECC86E00F39918 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5B178D27ECC86E00F39918 /* Package.swift */; };
 		8E7F48DC27BFF0E3008DA56A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7F48DB27BFF0E3008DA56A /* main.swift */; };
 		8E7F48E427BFF10C008DA56A /* SingleNum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7F48E327BFF10C008DA56A /* SingleNum.swift */; };
 		8E7F48E727BFF246008DA56A /* MoreNum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7F48E627BFF246008DA56A /* MoreNum.swift */; };
@@ -63,6 +64,7 @@
 		8E5B178327E61C4700F39918 /* LIS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LIS.swift; sourceTree = "<group>"; };
 		8E5B178727E6F48E00F39918 /* CommonSubsequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonSubsequence.swift; sourceTree = "<group>"; };
 		8E5B178A27ECB17400F39918 /* CommonSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonSubstring.swift; sourceTree = "<group>"; };
+		8E5B178D27ECC86E00F39918 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		8E7F48D827BFF0E3008DA56A /* LeeCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeeCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E7F48DB27BFF0E3008DA56A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		8E7F48E327BFF10C008DA56A /* SingleNum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleNum.swift; sourceTree = "<group>"; };
@@ -188,6 +190,7 @@
 		8E5B177B27E397DD00F39918 /* 动态规划 */ = {
 			isa = PBXGroup;
 			children = (
+				8E5B178C27ECC6F300F39918 /* 背包 */,
 				8E5B178927ECB14800F39918 /* 最长公共子串 */,
 				8E5B178527E6F35F00F39918 /* 最长公共子序列 */,
 				8E5B178227E61C1F00F39918 /* 最长递增子序列 */,
@@ -235,6 +238,14 @@
 				8E5B178A27ECB17400F39918 /* CommonSubstring.swift */,
 			);
 			path = "最长公共子串";
+			sourceTree = "<group>";
+		};
+		8E5B178C27ECC6F300F39918 /* 背包 */ = {
+			isa = PBXGroup;
+			children = (
+				8E5B178D27ECC86E00F39918 /* Package.swift */,
+			);
+			path = "背包";
 			sourceTree = "<group>";
 		};
 		8E7F48CF27BFF0E3008DA56A = {
@@ -462,6 +473,7 @@
 				8E5B177427DE29B900F39918 /* Anagram.swift in Sources */,
 				8E5B176127D5025400F39918 /* MinStack.swift in Sources */,
 				8E7F48EA27C00295008DA56A /* MatrixNum.swift in Sources */,
+				8E5B178E27ECC86E00F39918 /* Package.swift in Sources */,
 				8E5B176427D512D600F39918 /* MaxSlidingWindow.swift in Sources */,
 				8E7F48F927C28B90008DA56A /* RemoveNode.swift in Sources */,
 				8E5B177E27E398AB00F39918 /* CoinChange.swift in Sources */,

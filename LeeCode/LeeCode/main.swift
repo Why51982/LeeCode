@@ -127,6 +127,13 @@ import Foundation
 //debugPrint(commonSubsequence.longestCommonSubsequence(text1, text2))
 
 // 最长公共子串
-let text1 = "ABCBA", text2 = "BABCA"
-let commonSubstring = CommonSubstring()
-debugPrint(commonSubstring.lcs(str1: text1, str2: text2))
+//let text1 = "ABCBA", text2 = "BABCA"
+//let commonSubstring = CommonSubstring()
+//debugPrint(commonSubstring.lcs(str1: text1, str2: text2))
+
+// 背包
+let package = Package()
+let values = [6, 3, 5, 4, 6]
+let weights = [2, 2, 6, 5, 4]
+let capacity = 10
+debugPrint(package.select(values: values, weights: weights, capacity: capacity))
