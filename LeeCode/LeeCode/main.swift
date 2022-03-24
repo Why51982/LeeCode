@@ -122,6 +122,11 @@ import Foundation
 //debugPrint(lis.lengthOfLIS([10,9,2,5,3,7,101,18]))
 
 // 最长公共子序列
-let text1 = "abcde", text2 = "ace"
-let commonSubsequence = CommonSubsequence()
-debugPrint(commonSubsequence.longestCommonSubsequence(text1, text2))
+//let text1 = "abcde", text2 = "ace"
+//let commonSubsequence = CommonSubsequence()
+//debugPrint(commonSubsequence.longestCommonSubsequence(text1, text2))
+
+// 最长公共子串
+let text1 = "ABCBA", text2 = "BABCA"
+let commonSubstring = CommonSubstring()
+debugPrint(commonSubstring.lcs(str1: text1, str2: text2))
