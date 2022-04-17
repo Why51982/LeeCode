@@ -72,7 +72,6 @@ class MinDistance {
             dp[i][j] = min(t1, t2, t3)
             return dp[i][j]
         }
-    }
     
     // MARK: 思路
     // dp[i][j]是s1[0, i)转化到s2[0, j)的最少操作数
@@ -86,8 +85,7 @@ class MinDistance {
     // 1.s1[i - 1] == s2[j - 1] dp[i][j] = dp[i - 1][j - 1]
     // 2.s1[i - 1] != s2[j - 1] dp[i][j] = dp[i - 1][j - 1] + 1
     func minDistance1(_ word1: String, _ word2: String) -> Int {
-        if word1.isEmpty { return word2.count }
-        if word2.isEmpty { return word1.count }
+        if word1.isEmpty || word2.isEmpty { return max(word1.count, word2.count) }
         
         let word1Array = word1.utf8.map{ $0 }
         let word2Array = word2.utf8.map{ $0 }
@@ -116,7 +114,7 @@ class MinDistance {
                 }
                 
                 // 取出最小值
-                dp[i][j] = min(min(left, top), leftTop)
+                dp[i][j] = min(left, top, leftTop)
             }
         }
         
