@@ -132,8 +132,12 @@ import Foundation
 //debugPrint(commonSubstring.lcs(str1: text1, str2: text2))
 
 // 背包
-let package = Package()
-let values = [6, 3, 5, 4, 6]
-let weights = [2, 2, 6, 5, 4]
-let capacity = 10
-debugPrint(package.select(values: values, weights: weights, capacity: capacity))
+//let package = Package()
+//let values = [6, 3, 5, 4, 6]
+//let weights = [2, 2, 6, 5, 4]
+//let capacity = 10
+//debugPrint(package.select(values: values, weights: weights, capacity: capacity))
+
+// 编辑距离
+let minDistance = MinDistance()
+debugPrint(minDistance.minDistance("", "ros"))

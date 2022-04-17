@@ -23,6 +23,7 @@
 		8E5B178B27ECB17400F39918 /* CommonSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5B178A27ECB17400F39918 /* CommonSubstring.swift */; };
 		8E5B178E27ECC86E00F39918 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5B178D27ECC86E00F39918 /* Package.swift */; };
 		8E771766280C39C90052CA0C /* MaxValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E771765280C39C90052CA0C /* MaxValue.swift */; };
+		8E771769280C4C7B0052CA0C /* MinDistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E771768280C4C7B0052CA0C /* MinDistance.swift */; };
 		8E7F48DC27BFF0E3008DA56A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7F48DB27BFF0E3008DA56A /* main.swift */; };
 		8E7F48E427BFF10C008DA56A /* SingleNum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7F48E327BFF10C008DA56A /* SingleNum.swift */; };
 		8E7F48E727BFF246008DA56A /* MoreNum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7F48E627BFF246008DA56A /* MoreNum.swift */; };
@@ -67,6 +68,7 @@
 		8E5B178A27ECB17400F39918 /* CommonSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonSubstring.swift; sourceTree = "<group>"; };
 		8E5B178D27ECC86E00F39918 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		8E771765280C39C90052CA0C /* MaxValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxValue.swift; sourceTree = "<group>"; };
+		8E771768280C4C7B0052CA0C /* MinDistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinDistance.swift; sourceTree = "<group>"; };
 		8E7F48D827BFF0E3008DA56A /* LeeCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeeCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E7F48DB27BFF0E3008DA56A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		8E7F48E327BFF10C008DA56A /* SingleNum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleNum.swift; sourceTree = "<group>"; };
@@ -192,6 +194,7 @@
 		8E5B177B27E397DD00F39918 /* 动态规划 */ = {
 			isa = PBXGroup;
 			children = (
+				8E771767280C4C580052CA0C /* 编辑距离 */,
 				8E771764280C383E0052CA0C /* 礼物的最大价值 */,
 				8E5B178C27ECC6F300F39918 /* 背包 */,
 				8E5B178927ECB14800F39918 /* 最长公共子串 */,
@@ -257,6 +260,14 @@
 				8E771765280C39C90052CA0C /* MaxValue.swift */,
 			);
 			path = "礼物的最大价值";
+			sourceTree = "<group>";
+		};
+		8E771767280C4C580052CA0C /* 编辑距离 */ = {
+			isa = PBXGroup;
+			children = (
+				8E771768280C4C7B0052CA0C /* MinDistance.swift */,
+			);
+			path = "编辑距离";
 			sourceTree = "<group>";
 		};
 		8E7F48CF27BFF0E3008DA56A = {
@@ -467,6 +478,7 @@
 				8E5B178427E61C4700F39918 /* LIS.swift in Sources */,
 				8E7F490727C51DE7008DA56A /* PalindromeNode.swift in Sources */,
 				8E5B177A27E312B800F39918 /* LongestSubstring.swift in Sources */,
+				8E771769280C4C7B0052CA0C /* MinDistance.swift in Sources */,
 				8E7F48F127C0E896008DA56A /* SortColor.swift in Sources */,
 				8E5B178B27ECB17400F39918 /* CommonSubstring.swift in Sources */,
 				8E5B176E27DCE34800F39918 /* FlipedString.swift in Sources */,
