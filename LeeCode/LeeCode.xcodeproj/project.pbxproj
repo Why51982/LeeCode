@@ -37,6 +37,7 @@
 		8E7F490127C3ED28008DA56A /* IntersectNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7F490027C3ED28008DA56A /* IntersectNode.swift */; };
 		8E7F490427C5180F008DA56A /* SplitNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7F490327C5180F008DA56A /* SplitNode.swift */; };
 		8E7F490727C51DE7008DA56A /* PalindromeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7F490627C51DE7008DA56A /* PalindromeNode.swift */; };
+		8EFD0F4E281D39E700436485 /* LongestPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFD0F4D281D39E700436485 /* LongestPalindrome.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -83,6 +84,7 @@
 		8E7F490027C3ED28008DA56A /* IntersectNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntersectNode.swift; sourceTree = "<group>"; };
 		8E7F490327C5180F008DA56A /* SplitNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitNode.swift; sourceTree = "<group>"; };
 		8E7F490627C51DE7008DA56A /* PalindromeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromeNode.swift; sourceTree = "<group>"; };
+		8EFD0F4D281D39E700436485 /* LongestPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestPalindrome.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,6 +196,7 @@
 		8E5B177B27E397DD00F39918 /* 动态规划 */ = {
 			isa = PBXGroup;
 			children = (
+				8EFD0F4B281D397900436485 /* 最长回文子串 */,
 				8E771767280C4C580052CA0C /* 编辑距离 */,
 				8E771764280C383E0052CA0C /* 礼物的最大价值 */,
 				8E5B178C27ECC6F300F39918 /* 背包 */,
@@ -413,6 +416,14 @@
 			path = "回文链表";
 			sourceTree = "<group>";
 		};
+		8EFD0F4B281D397900436485 /* 最长回文子串 */ = {
+			isa = PBXGroup;
+			children = (
+				8EFD0F4D281D39E700436485 /* LongestPalindrome.swift */,
+			);
+			path = "最长回文子串";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -471,6 +482,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EFD0F4E281D39E700436485 /* LongestPalindrome.swift in Sources */,
 				8E5B176A27DCB18300F39918 /* DailyTemperature.swift in Sources */,
 				8E5B177127DE24CE00F39918 /* Subtree.swift in Sources */,
 				8E7F48E427BFF10C008DA56A /* SingleNum.swift in Sources */,

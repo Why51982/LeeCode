@@ -139,5 +139,9 @@ import Foundation
 //debugPrint(package.select(values: values, weights: weights, capacity: capacity))
 
 // 编辑距离
-let minDistance = MinDistance()
-debugPrint(minDistance.minDistance("", "ros"))
+//let minDistance = MinDistance()
+//debugPrint(minDistance.minDistance("", "ros"))
+
+// 最长回文子串
+let longestPalindrome = LongestPalindrome()
+debugPrint(longestPalindrome.longestPalindrome("bananas"))
