@@ -39,6 +39,7 @@
 		8E7F490727C51DE7008DA56A /* PalindromeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7F490627C51DE7008DA56A /* PalindromeNode.swift */; };
 		8EA4AEC2281EA894006A3A10 /* LowestCommonAncestor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA4AEC1281EA894006A3A10 /* LowestCommonAncestor.swift */; };
 		8EA4AEC5281EAEAE006A3A10 /* RecoverTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA4AEC4281EAEAE006A3A10 /* RecoverTree.swift */; };
+		8EA4AEC8281EF457006A3A10 /* LargestBSTSubtree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA4AEC7281EF457006A3A10 /* LargestBSTSubtree.swift */; };
 		8EFD0F4E281D39E700436485 /* LongestPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFD0F4D281D39E700436485 /* LongestPalindrome.swift */; };
 /* End PBXBuildFile section */
 
@@ -88,6 +89,7 @@
 		8E7F490627C51DE7008DA56A /* PalindromeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromeNode.swift; sourceTree = "<group>"; };
 		8EA4AEC1281EA894006A3A10 /* LowestCommonAncestor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowestCommonAncestor.swift; sourceTree = "<group>"; };
 		8EA4AEC4281EAEAE006A3A10 /* RecoverTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecoverTree.swift; sourceTree = "<group>"; };
+		8EA4AEC7281EF457006A3A10 /* LargestBSTSubtree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargestBSTSubtree.swift; sourceTree = "<group>"; };
 		8EFD0F4D281D39E700436485 /* LongestPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestPalindrome.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -424,6 +426,7 @@
 		8EA4AEBC281EA6A1006A3A10 /* 二叉树 */ = {
 			isa = PBXGroup;
 			children = (
+				8EA4AEC6281EF3C3006A3A10 /* 最大BST子树 */,
 				8EA4AEC3281EAEA0006A3A10 /* 恢复二叉搜索树 */,
 				8EA4AEBF281EA877006A3A10 /* 二叉树的最近公共祖先 */,
 			);
@@ -444,6 +447,14 @@
 				8EA4AEC4281EAEAE006A3A10 /* RecoverTree.swift */,
 			);
 			path = "恢复二叉搜索树";
+			sourceTree = "<group>";
+		};
+		8EA4AEC6281EF3C3006A3A10 /* 最大BST子树 */ = {
+			isa = PBXGroup;
+			children = (
+				8EA4AEC7281EF457006A3A10 /* LargestBSTSubtree.swift */,
+			);
+			path = "最大BST子树";
 			sourceTree = "<group>";
 		};
 		8EFD0F4B281D397900436485 /* 最长回文子串 */ = {
@@ -545,6 +556,7 @@
 				8E5B176427D512D600F39918 /* MaxSlidingWindow.swift in Sources */,
 				8E7F48F927C28B90008DA56A /* RemoveNode.swift in Sources */,
 				8E5B177E27E398AB00F39918 /* CoinChange.swift in Sources */,
+				8EA4AEC8281EF457006A3A10 /* LargestBSTSubtree.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
