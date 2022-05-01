@@ -37,6 +37,7 @@
 		8E7F490127C3ED28008DA56A /* IntersectNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7F490027C3ED28008DA56A /* IntersectNode.swift */; };
 		8E7F490427C5180F008DA56A /* SplitNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7F490327C5180F008DA56A /* SplitNode.swift */; };
 		8E7F490727C51DE7008DA56A /* PalindromeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7F490627C51DE7008DA56A /* PalindromeNode.swift */; };
+		8EA4AEC2281EA894006A3A10 /* LowestCommonAncestor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA4AEC1281EA894006A3A10 /* LowestCommonAncestor.swift */; };
 		8EFD0F4E281D39E700436485 /* LongestPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFD0F4D281D39E700436485 /* LongestPalindrome.swift */; };
 /* End PBXBuildFile section */
 
@@ -84,6 +85,7 @@
 		8E7F490027C3ED28008DA56A /* IntersectNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntersectNode.swift; sourceTree = "<group>"; };
 		8E7F490327C5180F008DA56A /* SplitNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitNode.swift; sourceTree = "<group>"; };
 		8E7F490627C51DE7008DA56A /* PalindromeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromeNode.swift; sourceTree = "<group>"; };
+		8EA4AEC1281EA894006A3A10 /* LowestCommonAncestor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowestCommonAncestor.swift; sourceTree = "<group>"; };
 		8EFD0F4D281D39E700436485 /* LongestPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestPalindrome.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -276,6 +278,7 @@
 		8E7F48CF27BFF0E3008DA56A = {
 			isa = PBXGroup;
 			children = (
+				8EA4AEBC281EA6A1006A3A10 /* 二叉树 */,
 				8E5B177B27E397DD00F39918 /* 动态规划 */,
 				8E5B176B27DCE31200F39918 /* 字符串  */,
 				8E5B175E27D5008000F39918 /* 栈 */,
@@ -416,6 +419,22 @@
 			path = "回文链表";
 			sourceTree = "<group>";
 		};
+		8EA4AEBC281EA6A1006A3A10 /* 二叉树 */ = {
+			isa = PBXGroup;
+			children = (
+				8EA4AEBF281EA877006A3A10 /* 二叉树的最近公共祖先 */,
+			);
+			path = "二叉树";
+			sourceTree = "<group>";
+		};
+		8EA4AEBF281EA877006A3A10 /* 二叉树的最近公共祖先 */ = {
+			isa = PBXGroup;
+			children = (
+				8EA4AEC1281EA894006A3A10 /* LowestCommonAncestor.swift */,
+			);
+			path = "二叉树的最近公共祖先";
+			sourceTree = "<group>";
+		};
 		8EFD0F4B281D397900436485 /* 最长回文子串 */ = {
 			isa = PBXGroup;
 			children = (
@@ -452,7 +471,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1310;
-				LastUpgradeCheck = 1310;
+				LastUpgradeCheck = 1320;
 				TargetAttributes = {
 					8E7F48D727BFF0E3008DA56A = {
 						CreatedOnToolsVersion = 13.1;
@@ -509,6 +528,7 @@
 				8E5B177427DE29B900F39918 /* Anagram.swift in Sources */,
 				8E5B176127D5025400F39918 /* MinStack.swift in Sources */,
 				8E7F48EA27C00295008DA56A /* MatrixNum.swift in Sources */,
+				8EA4AEC2281EA894006A3A10 /* LowestCommonAncestor.swift in Sources */,
 				8E5B178E27ECC86E00F39918 /* Package.swift in Sources */,
 				8E5B176427D512D600F39918 /* MaxSlidingWindow.swift in Sources */,
 				8E7F48F927C28B90008DA56A /* RemoveNode.swift in Sources */,
@@ -637,6 +657,7 @@
 		8E7F48E027BFF0E3008DA56A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -646,6 +667,7 @@
 		8E7F48E127BFF0E3008DA56A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
