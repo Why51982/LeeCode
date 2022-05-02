@@ -43,6 +43,7 @@
 		8EFD0F4E281D39E700436485 /* LongestPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFD0F4D281D39E700436485 /* LongestPalindrome.swift */; };
 		8EFD68E4282000030023114F /* LetterCombinations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFD68E3282000030023114F /* LetterCombinations.swift */; };
 		8EFD68E7282018730023114F /* Permute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFD68E6282018730023114F /* Permute.swift */; };
+		8EFD68EA28203E7C0023114F /* PermuteUnique.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFD68E928203E7C0023114F /* PermuteUnique.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -95,6 +96,7 @@
 		8EFD0F4D281D39E700436485 /* LongestPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestPalindrome.swift; sourceTree = "<group>"; };
 		8EFD68E3282000030023114F /* LetterCombinations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterCombinations.swift; sourceTree = "<group>"; };
 		8EFD68E6282018730023114F /* Permute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Permute.swift; sourceTree = "<group>"; };
+		8EFD68E928203E7C0023114F /* PermuteUnique.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermuteUnique.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -473,6 +475,7 @@
 		8EFD68E1281FFE480023114F /* DFS */ = {
 			isa = PBXGroup;
 			children = (
+				8EFD68E828203E650023114F /* 全排列 II */,
 				8EFD68E52820183E0023114F /* 全排列 */,
 				8EFD68E2281FFFF30023114F /* 电话号码的字母组合 */,
 			);
@@ -493,6 +496,14 @@
 				8EFD68E6282018730023114F /* Permute.swift */,
 			);
 			path = "全排列";
+			sourceTree = "<group>";
+		};
+		8EFD68E828203E650023114F /* 全排列 II */ = {
+			isa = PBXGroup;
+			children = (
+				8EFD68E928203E7C0023114F /* PermuteUnique.swift */,
+			);
+			path = "全排列 II";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -575,6 +586,7 @@
 				8E5B178827E6F48E00F39918 /* CommonSubsequence.swift in Sources */,
 				8E7F48DC27BFF0E3008DA56A /* main.swift in Sources */,
 				8E7F48E727BFF246008DA56A /* MoreNum.swift in Sources */,
+				8EFD68EA28203E7C0023114F /* PermuteUnique.swift in Sources */,
 				8E7F48ED27C01068008DA56A /* MergeArray.swift in Sources */,
 				8E7F48F427C14726008DA56A /* PartialSort.swift in Sources */,
 				8E5B177727DE36E700F39918 /* ReverseWords.swift in Sources */,

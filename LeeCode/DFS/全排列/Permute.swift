@@ -58,7 +58,7 @@ class Permute {
             dfs(index + 1, &results, nums, &element)
             
             // 还原现场
-            swap(i, index, &element)
+            swap(index, i, &element)
         }
     }
     
