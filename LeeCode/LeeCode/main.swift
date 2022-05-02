@@ -143,5 +143,12 @@ import Foundation
 //debugPrint(minDistance.minDistance("", "ros"))
 
 // 最长回文子串
-let longestPalindrome = LongestPalindrome()
-debugPrint(longestPalindrome.longestPalindrome("bananas"))
+//let longestPalindrome = LongestPalindrome()
+//debugPrint(longestPalindrome.longestPalindrome("bananas"))
+
+// 电话号码的字母组合
+let letter = LetterCombinations()
+debugPrint(letter.letterCombinations("23"))
+
+let lee = Lee()
+debugPrint(lee.letterCombinations("23"))

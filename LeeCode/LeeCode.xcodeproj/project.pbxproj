@@ -41,6 +41,7 @@
 		8EA4AEC5281EAEAE006A3A10 /* RecoverTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA4AEC4281EAEAE006A3A10 /* RecoverTree.swift */; };
 		8EA4AEC8281EF457006A3A10 /* LargestBSTSubtree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA4AEC7281EF457006A3A10 /* LargestBSTSubtree.swift */; };
 		8EFD0F4E281D39E700436485 /* LongestPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFD0F4D281D39E700436485 /* LongestPalindrome.swift */; };
+		8EFD68E4282000030023114F /* LetterCombinations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFD68E3282000030023114F /* LetterCombinations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -91,6 +92,7 @@
 		8EA4AEC4281EAEAE006A3A10 /* RecoverTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecoverTree.swift; sourceTree = "<group>"; };
 		8EA4AEC7281EF457006A3A10 /* LargestBSTSubtree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargestBSTSubtree.swift; sourceTree = "<group>"; };
 		8EFD0F4D281D39E700436485 /* LongestPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestPalindrome.swift; sourceTree = "<group>"; };
+		8EFD68E3282000030023114F /* LetterCombinations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterCombinations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -282,6 +284,7 @@
 		8E7F48CF27BFF0E3008DA56A = {
 			isa = PBXGroup;
 			children = (
+				8EFD68E1281FFE480023114F /* DFS */,
 				8EA4AEBC281EA6A1006A3A10 /* 二叉树 */,
 				8E5B177B27E397DD00F39918 /* 动态规划 */,
 				8E5B176B27DCE31200F39918 /* 字符串  */,
@@ -465,6 +468,22 @@
 			path = "最长回文子串";
 			sourceTree = "<group>";
 		};
+		8EFD68E1281FFE480023114F /* DFS */ = {
+			isa = PBXGroup;
+			children = (
+				8EFD68E2281FFFF30023114F /* 电话号码的字母组合 */,
+			);
+			path = DFS;
+			sourceTree = "<group>";
+		};
+		8EFD68E2281FFFF30023114F /* 电话号码的字母组合 */ = {
+			isa = PBXGroup;
+			children = (
+				8EFD68E3282000030023114F /* LetterCombinations.swift */,
+			);
+			path = "电话号码的字母组合";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -537,6 +556,7 @@
 				8E5B176E27DCE34800F39918 /* FlipedString.swift in Sources */,
 				8E771766280C39C90052CA0C /* MaxValue.swift in Sources */,
 				8E7F490127C3ED28008DA56A /* IntersectNode.swift in Sources */,
+				8EFD68E4282000030023114F /* LetterCombinations.swift in Sources */,
 				8E7F48FE27C3E0CD008DA56A /* AddNum.swift in Sources */,
 				8E5B176727DB95ED00F39918 /* MaximumBinaryTree.swift in Sources */,
 				8E7F490427C5180F008DA56A /* SplitNode.swift in Sources */,
