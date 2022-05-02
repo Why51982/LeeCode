@@ -154,9 +154,13 @@ import Foundation
 //debugPrint(lee.letterCombinations("23"))
 
 // 全排列
-let permute = Permute()
-debugPrint(permute.permute([1, 2, 3]))
+//let permute = Permute()
+//debugPrint(permute.permute([1, 2, 3]))
 
 // 全排列 II
-let permuteUnique =  PermuteUnique()
-debugPrint(permuteUnique.permuteUnique([1, 1, 3]))
+//let permuteUnique =  PermuteUnique()
+//debugPrint(permuteUnique.permuteUnique([1, 1, 3]))
+
+// 括号生成
+let parenthesis = GenerateParenthesis()
+debugPrint(parenthesis.generateParenthesis(3))
