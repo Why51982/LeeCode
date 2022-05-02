@@ -147,8 +147,11 @@ import Foundation
 //debugPrint(longestPalindrome.longestPalindrome("bananas"))
 
 // 电话号码的字母组合
-let letter = LetterCombinations()
-debugPrint(letter.letterCombinations("23"))
+//let letter = LetterCombinations()
+//debugPrint(letter.letterCombinations("23"))
+//
+//let lee = Lee()
+//debugPrint(lee.letterCombinations("23"))
 
-let lee = Lee()
-debugPrint(lee.letterCombinations("23"))
+let permute = Permute()
+debugPrint(permute.permute([1, 2, 3]))
