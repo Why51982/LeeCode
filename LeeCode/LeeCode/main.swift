@@ -166,5 +166,9 @@ import Foundation
 //debugPrint(parenthesis.generateParenthesis(3))
 
 // 两数之和
-let twoSum = TwoSum()
-debugPrint(twoSum.twoSum([3, 2, 4], 6))
+//let twoSum = TwoSum()
+//debugPrint(twoSum.twoSum([3, 2, 4], 6))
+
+// 三数之和
+let threeSum = ThreeSum()
+debugPrint(threeSum.threeSum([0, 0, 0]))

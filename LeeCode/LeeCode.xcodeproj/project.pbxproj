@@ -47,6 +47,7 @@
 		8EFD68ED28204E630023114F /* GenerateParenthesis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFD68EC28204E630023114F /* GenerateParenthesis.swift */; };
 		8EFD68F128216C450023114F /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFD68F028216C450023114F /* TwoSum.swift */; };
 		8EFD68F428216E250023114F /* MoveZero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFD68F328216E250023114F /* MoveZero.swift */; };
+		8EFD68F7282189890023114F /* ThreeSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFD68F6282189890023114F /* ThreeSum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -103,6 +104,7 @@
 		8EFD68EC28204E630023114F /* GenerateParenthesis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateParenthesis.swift; sourceTree = "<group>"; };
 		8EFD68F028216C450023114F /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
 		8EFD68F328216E250023114F /* MoveZero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveZero.swift; sourceTree = "<group>"; };
+		8EFD68F6282189890023114F /* ThreeSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeSum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -525,6 +527,7 @@
 		8EFD68EE28216BFC0023114F /* 刷题  */ = {
 			isa = PBXGroup;
 			children = (
+				8EFD68F52821897A0023114F /* 三数之和 */,
 				8EFD68F228216D760023114F /* 移动零 */,
 				8EFD68EF28216C2C0023114F /* 两数之和 */,
 			);
@@ -545,6 +548,14 @@
 				8EFD68F328216E250023114F /* MoveZero.swift */,
 			);
 			path = "移动零";
+			sourceTree = "<group>";
+		};
+		8EFD68F52821897A0023114F /* 三数之和 */ = {
+			isa = PBXGroup;
+			children = (
+				8EFD68F6282189890023114F /* ThreeSum.swift */,
+			);
+			path = "三数之和";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -641,6 +652,7 @@
 				8E5B178E27ECC86E00F39918 /* Package.swift in Sources */,
 				8E5B176427D512D600F39918 /* MaxSlidingWindow.swift in Sources */,
 				8E7F48F927C28B90008DA56A /* RemoveNode.swift in Sources */,
+				8EFD68F7282189890023114F /* ThreeSum.swift in Sources */,
 				8EFD68ED28204E630023114F /* GenerateParenthesis.swift in Sources */,
 				8E5B177E27E398AB00F39918 /* CoinChange.swift in Sources */,
 				8EA4AEC8281EF457006A3A10 /* LargestBSTSubtree.swift in Sources */,
