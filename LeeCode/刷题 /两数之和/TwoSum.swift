@@ -37,5 +37,56 @@
 import Foundation
 
 class TwoSum {
+    // MARK: 优化时间复杂度
+    func twoSum2(_ nums: [Int], _ target: Int) -> [Int] {
+        // 记录遍历的index
+        var map: Dictionary = Dictionary<Int, Int>()
+        var indexs: [Int] = []
+        for i in 0 ..< nums.count {
+            let remain = target - nums[i]
+            
+            if let index = map[remain] {
+                indexs.append(index)
+                indexs.append(i)
+            }
+            
+            map[nums[i]] = i
+        }
+        
+        return indexs
+    }
     
+    // MARK: 暴力法，时间复杂度n^2
+    func twoSum1(_ nums: [Int], _ target: Int) -> [Int] {
+        // 记录遍历的index
+        var index = 0
+        var current = 1
+        for i in 0 ..< nums.count {
+            for j in i + 1 ..< nums.count {
+                if nums[i] + nums[j] == target {
+                    index = i
+                    current = j
+                }
+            }
+        }
+        
+        var indexs: [Int] = []
+        indexs.append(index)
+        indexs.append(current)
+        return indexs
+    }
+}
+
+// MARK: 最优解(思路一样，写法不一样)
+extension TwoSum {
+    func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
+        var dic = [Int : Int]()
+        for (index, value) in nums.enumerated() {
+            if let lastIndex = dic[target - value] {
+                return [lastIndex, index]
+            }
+            dic[value] = index
+        }
+        return []
+    }
 }

@@ -162,5 +162,9 @@ import Foundation
 //debugPrint(permuteUnique.permuteUnique([1, 1, 3]))
 
 // 括号生成
-let parenthesis = GenerateParenthesis()
-debugPrint(parenthesis.generateParenthesis(3))
+//let parenthesis = GenerateParenthesis()
+//debugPrint(parenthesis.generateParenthesis(3))
+
+// 两数之和
+let twoSum = TwoSum()
+debugPrint(twoSum.twoSum([3, 2, 4], 6))
