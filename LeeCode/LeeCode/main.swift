@@ -40,6 +40,23 @@ import Foundation
 //let indexs = PartialSort.subSort(nums)
 //debugPrint(indexs)
 
+//[1,4,3,2,5,2]
+let head1 = ListNode(1)
+let head2 = ListNode(4)
+let head3 = ListNode(3)
+let head4 = ListNode(2)
+let head5 = ListNode(5)
+let head6 = ListNode(2)
+head1.next = head2
+head2.next = head3
+head3.next = head4
+head4.next = head5
+head5.next = head6
+head6.next = nil
+
+// 分割链表
+SplitNode.partition(head1, 3)
+
 //        [4,1,8,4,5]
 //        [5,6,1,8,4,5]
 //        let head1 = ListNode(4)
@@ -172,3 +189,7 @@ import Foundation
 // 三数之和
 let threeSum = ThreeSum()
 debugPrint(threeSum.threeSum([0, 0, 0]))
+
+// 种花问题
+let flowerbed = CanPlaceFlowers()
+flowerbed.canPlaceFlowers([1,0], 1)

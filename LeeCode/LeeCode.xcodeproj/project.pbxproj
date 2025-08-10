@@ -40,6 +40,12 @@
 		8EA4AEC2281EA894006A3A10 /* LowestCommonAncestor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA4AEC1281EA894006A3A10 /* LowestCommonAncestor.swift */; };
 		8EA4AEC5281EAEAE006A3A10 /* RecoverTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA4AEC4281EAEAE006A3A10 /* RecoverTree.swift */; };
 		8EA4AEC8281EF457006A3A10 /* LargestBSTSubtree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA4AEC7281EF457006A3A10 /* LargestBSTSubtree.swift */; };
+		8EF9DF6D2E4856B70091A694 /* MergeAlternately.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF9DF6C2E4856B70091A694 /* MergeAlternately.swift */; };
+		8EF9DF702E4898A50091A694 /* GcdOfStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF9DF6F2E4898A50091A694 /* GcdOfStrings.swift */; };
+		8EF9DF732E48A5DA0091A694 /* KidsWithCandies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF9DF722E48A5DA0091A694 /* KidsWithCandies.swift */; };
+		8EF9DF762E48C6DE0091A694 /* CanPlaceFlowers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF9DF752E48C6DE0091A694 /* CanPlaceFlowers.swift */; };
+		8EF9DF792E48DBF80091A694 /* ReverseVowels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF9DF782E48DBF80091A694 /* ReverseVowels.swift */; };
+		8EF9DF7C2E48F1790091A694 /* ProductExceptSelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF9DF7B2E48F1790091A694 /* ProductExceptSelf.swift */; };
 		8EFD0F4E281D39E700436485 /* LongestPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFD0F4D281D39E700436485 /* LongestPalindrome.swift */; };
 		8EFD68E4282000030023114F /* LetterCombinations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFD68E3282000030023114F /* LetterCombinations.swift */; };
 		8EFD68E7282018730023114F /* Permute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFD68E6282018730023114F /* Permute.swift */; };
@@ -98,6 +104,12 @@
 		8EA4AEC1281EA894006A3A10 /* LowestCommonAncestor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowestCommonAncestor.swift; sourceTree = "<group>"; };
 		8EA4AEC4281EAEAE006A3A10 /* RecoverTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecoverTree.swift; sourceTree = "<group>"; };
 		8EA4AEC7281EF457006A3A10 /* LargestBSTSubtree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargestBSTSubtree.swift; sourceTree = "<group>"; };
+		8EF9DF6C2E4856B70091A694 /* MergeAlternately.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeAlternately.swift; sourceTree = "<group>"; };
+		8EF9DF6F2E4898A50091A694 /* GcdOfStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GcdOfStrings.swift; sourceTree = "<group>"; };
+		8EF9DF722E48A5DA0091A694 /* KidsWithCandies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KidsWithCandies.swift; sourceTree = "<group>"; };
+		8EF9DF752E48C6DE0091A694 /* CanPlaceFlowers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanPlaceFlowers.swift; sourceTree = "<group>"; };
+		8EF9DF782E48DBF80091A694 /* ReverseVowels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseVowels.swift; sourceTree = "<group>"; };
+		8EF9DF7B2E48F1790091A694 /* ProductExceptSelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductExceptSelf.swift; sourceTree = "<group>"; };
 		8EFD0F4D281D39E700436485 /* LongestPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestPalindrome.swift; sourceTree = "<group>"; };
 		8EFD68E3282000030023114F /* LetterCombinations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterCombinations.swift; sourceTree = "<group>"; };
 		8EFD68E6282018730023114F /* Permute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Permute.swift; sourceTree = "<group>"; };
@@ -475,6 +487,54 @@
 			path = "最大BST子树";
 			sourceTree = "<group>";
 		};
+		8EF9DF6B2E48566D0091A694 /* 1768. 交替合并字符串 */ = {
+			isa = PBXGroup;
+			children = (
+				8EF9DF6C2E4856B70091A694 /* MergeAlternately.swift */,
+			);
+			path = "1768. 交替合并字符串";
+			sourceTree = "<group>";
+		};
+		8EF9DF6E2E4898860091A694 /* 1071. 字符串的最大公因子 */ = {
+			isa = PBXGroup;
+			children = (
+				8EF9DF6F2E4898A50091A694 /* GcdOfStrings.swift */,
+			);
+			path = "1071. 字符串的最大公因子";
+			sourceTree = "<group>";
+		};
+		8EF9DF712E48A5BF0091A694 /* 1431. 拥有最多糖果的孩子 */ = {
+			isa = PBXGroup;
+			children = (
+				8EF9DF722E48A5DA0091A694 /* KidsWithCandies.swift */,
+			);
+			path = "1431. 拥有最多糖果的孩子";
+			sourceTree = "<group>";
+		};
+		8EF9DF742E48C6CD0091A694 /* 605. 种花问题 */ = {
+			isa = PBXGroup;
+			children = (
+				8EF9DF752E48C6DE0091A694 /* CanPlaceFlowers.swift */,
+			);
+			path = "605. 种花问题";
+			sourceTree = "<group>";
+		};
+		8EF9DF772E48DBE70091A694 /* 345. 反转字符串中的元音字母 */ = {
+			isa = PBXGroup;
+			children = (
+				8EF9DF782E48DBF80091A694 /* ReverseVowels.swift */,
+			);
+			path = "345. 反转字符串中的元音字母";
+			sourceTree = "<group>";
+		};
+		8EF9DF7A2E48E8640091A694 /* 238. 除自身以外数组的乘积 */ = {
+			isa = PBXGroup;
+			children = (
+				8EF9DF7B2E48F1790091A694 /* ProductExceptSelf.swift */,
+			);
+			path = "238. 除自身以外数组的乘积";
+			sourceTree = "<group>";
+		};
 		8EFD0F4B281D397900436485 /* 最长回文子串 */ = {
 			isa = PBXGroup;
 			children = (
@@ -529,6 +589,12 @@
 		8EFD68EE28216BFC0023114F /* 刷题  */ = {
 			isa = PBXGroup;
 			children = (
+				8EF9DF7A2E48E8640091A694 /* 238. 除自身以外数组的乘积 */,
+				8EF9DF772E48DBE70091A694 /* 345. 反转字符串中的元音字母 */,
+				8EF9DF742E48C6CD0091A694 /* 605. 种花问题 */,
+				8EF9DF712E48A5BF0091A694 /* 1431. 拥有最多糖果的孩子 */,
+				8EF9DF6E2E4898860091A694 /* 1071. 字符串的最大公因子 */,
+				8EF9DF6B2E48566D0091A694 /* 1768. 交替合并字符串 */,
 				8EFD68F82821971A0023114F /* 圆圈中最后剩下的数字 */,
 				8EFD68F52821897A0023114F /* 三数之和 */,
 				8EFD68F228216D760023114F /* 移动零 */,
@@ -629,9 +695,12 @@
 			files = (
 				8EFD68F428216E250023114F /* MoveZero.swift in Sources */,
 				8EFD0F4E281D39E700436485 /* LongestPalindrome.swift in Sources */,
+				8EF9DF702E4898A50091A694 /* GcdOfStrings.swift in Sources */,
+				8EF9DF732E48A5DA0091A694 /* KidsWithCandies.swift in Sources */,
 				8E5B176A27DCB18300F39918 /* DailyTemperature.swift in Sources */,
 				8E5B177127DE24CE00F39918 /* Subtree.swift in Sources */,
 				8E7F48E427BFF10C008DA56A /* SingleNum.swift in Sources */,
+				8EF9DF792E48DBF80091A694 /* ReverseVowels.swift in Sources */,
 				8E5B178127E5E34F00F39918 /* MaxSubArray.swift in Sources */,
 				8E5B178427E61C4700F39918 /* LIS.swift in Sources */,
 				8E7F490727C51DE7008DA56A /* PalindromeNode.swift in Sources */,
@@ -640,11 +709,13 @@
 				8E7F48F127C0E896008DA56A /* SortColor.swift in Sources */,
 				8E5B178B27ECB17400F39918 /* CommonSubstring.swift in Sources */,
 				8E5B176E27DCE34800F39918 /* FlipedString.swift in Sources */,
+				8EF9DF762E48C6DE0091A694 /* CanPlaceFlowers.swift in Sources */,
 				8E771766280C39C90052CA0C /* MaxValue.swift in Sources */,
 				8E7F490127C3ED28008DA56A /* IntersectNode.swift in Sources */,
 				8EFD68E4282000030023114F /* LetterCombinations.swift in Sources */,
 				8E7F48FE27C3E0CD008DA56A /* AddNum.swift in Sources */,
 				8E5B176727DB95ED00F39918 /* MaximumBinaryTree.swift in Sources */,
+				8EF9DF7C2E48F1790091A694 /* ProductExceptSelf.swift in Sources */,
 				8E7F490427C5180F008DA56A /* SplitNode.swift in Sources */,
 				8E7F48FB27C28D53008DA56A /* ListNode.swift in Sources */,
 				8E5B178827E6F48E00F39918 /* CommonSubsequence.swift in Sources */,
@@ -668,6 +739,7 @@
 				8EFD68ED28204E630023114F /* GenerateParenthesis.swift in Sources */,
 				8E5B177E27E398AB00F39918 /* CoinChange.swift in Sources */,
 				8EA4AEC8281EF457006A3A10 /* LargestBSTSubtree.swift in Sources */,
+				8EF9DF6D2E4856B70091A694 /* MergeAlternately.swift in Sources */,
 				8EFD68F128216C450023114F /* TwoSum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
